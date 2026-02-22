@@ -1,0 +1,42 @@
+# --- Dark Horizon for Helix ---
+"ui.background" = { bg = "#1c1e26" }
+"ui.text" = "#d5d8da"
+"ui.cursor" = { fg = "#1c1e26", bg = "#ffffff" }
+"ui.selection" = { bg = "#2e303e" }
+
+# --- Syntax Highlighting ---
+"keyword" = "#b877db"
+"function" = "#25b0bc"
+"string" = "#fab795"
+"variable" = "#d5d8da"
+"type" = "#fac03b"
+"comment" = { fg = "#6c6f93", modifiers = ["italic"] }
+"constant" = "#f09483"
+
+# --- UI Elements ---
+"ui.statusline" = { fg = "#d5d8da", bg = "#232530" }
+"ui.linenr" = { fg = "#444a73" }
+"ui.linenr.selected" = { fg = "#d5d8da" }
+
+# --- Diagnostics & Messages ---
+# This defines both the color AND the symbol for the gutter
+"error" = { fg = "#e95678", text = "" }
+"warning" = { fg = "#fac03b", text = "▲" }
+"info" = { fg = "#25b0bc", text = "●" }
+"hint" = { fg = "#b877db", text = "»" }
+
+"diagnostic" = { modifiers = ["underlined"] }
+"diagnostic.error" = { fg = "#e95678", modifiers = ["underlined"] }
+"diagnostic.warning" = { fg = "#fac03b", modifiers = ["underlined"] }
+
+"ui.statusline.diag.error" = { fg = "#e95678", bg = "#232530" }
+"ui.statusline.diag.warning" = { fg = "#fac03b", bg = "#232530" }
+
+# --- Popups & Floating Windows ---
+"ui.popup" = { fg = "#d5d8da", bg = "#232530" }
+"ui.window" = { fg = "#e95678" } 
+"ui.help" = { fg = "#d5d8da", bg = "#232530" }
+
+# Target the diagnostic text in the popup
+"ui.text.info" = { fg = "#e95678" } 
+"ui.cursorline.diagnostic.error" = { bg = "#2b1c20" }

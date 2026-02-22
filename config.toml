@@ -1,0 +1,37 @@
+theme = "dark_horizon"
+
+[editor]
+mouse = false
+auto-completion = true
+auto-format = true
+gutters = ["diff", "diagnostics", "line-numbers", "spacer"]
+cursorline = true
+cursor-shape.insert = "bar"
+cursor-shape.normal = "block"
+true-color = true
+soft-wrap.enable = true
+soft-wrap.max-indent-retain = 80
+
+[editor.file-picker]
+hidden = false
+
+[editor.statusline]
+left = ["mode", "spinner", "file-modification-indicator", "read-only-indicator"]
+center = ["file-name"]
+right = ["diagnostics", "register", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "VISUAL"
+
+[editor.lsp]
+enable = true
+auto-signature-help = true
+display-messages = true
+snippets = true
+display-inlay-hints = false
+
+[editor.indent-guides]
+render = true
+character = "┊"
+skip-levels = 1
