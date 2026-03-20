@@ -43,6 +43,10 @@ render = true
 character = "┊"
 skip-levels = 1
 
+###############################################################################
+# ICON SUPPORT (Requires PR #12369 / "Icons v2" Fork)
+# These settings rely on the custom build for Nerd Font glyph integration.
+###############################################################################
 [icons.vcs]
 enabled = true
 icon = "⌬"
@@ -61,3 +65,6 @@ error = ""
 
 [icons.ui.virtual]
 ruler = "|"
+###############################################################################
+# End of PR #12369 Configuration
+###############################################################################
